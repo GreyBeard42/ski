@@ -1,6 +1,7 @@
 # ski
 Just ski.
 
+![preview.png](preview.png)
 
 ## Sounds Credits:
 
