@@ -6,17 +6,18 @@ let scream, skisound
 let fixedcolor = false
 
 function preload() {
+    let pre = "https://cdn.jsdelivr.net/gh/GreyBeard42/ski@main"
     for(let i=0; i<=4; i++) {
-        images.push(loadImage(`images/snow-${i}.png`))
+        images.push(loadImage(`${pre}/images/snow-${i}.png`))
     }
     for(i=0; i<=1; i++) {
-        images.push(loadImage(`images/tree_${i}.png`))
+        images.push(loadImage(`${pre}/images/tree_${i}.png`))
     }
     for(i=0; i<=13; i++) {
-        images.push(loadImage(`images/skier-${i}.png`))
+        images.push(loadImage(`${pre}/images/skier-${i}.png`))
     }
-    scream = loadSound("girl-scream-45657.wav")
-    skisound = loadSound("ski-67717.mp3")
+    scream = loadSound(`${pre}/girl-scream-45657.wav`)
+    skisound = loadSound(`${pre}/ski-67717.mp3`)
 }
 
 function setup() {
