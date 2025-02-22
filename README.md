@@ -1,6 +1,10 @@
 # ski
 Just ski.
 
+---
+
+Use arrow keys or click the sides of the screen to turn.
+
 ![preview.png](preview.png)
 
 ## Sounds Credits:
