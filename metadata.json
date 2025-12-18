@@ -1,0 +1,16 @@
+{
+  "title": "Free Ski",
+  "desc": "A p5.js top-down skiing game",
+
+  "status": "archived",
+  "version": "v1",
+
+  "date": "2/18/2025",
+
+  "tags": [
+    "javascript",
+    "p5.js",
+    "game",
+    "retro" 
+  ]
+}
